@@ -78,7 +78,7 @@ def main(args):
         save_directory = args.directory
     else:
         # if no command line parameter, directly use these parameters:
-        query = ["moto"]
+        query = ["moto", "voiture"]
         max_images = 100
         first_image_index = 0
         save_directory = "dataset/"
